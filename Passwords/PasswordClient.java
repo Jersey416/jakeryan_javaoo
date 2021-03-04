@@ -18,16 +18,20 @@ public class PasswordClient {
         Scanner in=new Scanner(System.in);
         //scan in password
         password=in.next();
-        //strengthChecler object
-        StrengthChecker Strength= new StrengthChecker();
+        //strengthChecker & superStrengthChecker objects
+        SuperStrengthChecker Strength=new SuperStrengthChecker();
+        StrengthChecker Grade= new StrengthChecker();
         //number=getStregth method
         //@param password
         strengthNum=Strength.getStrengthNum(password);
         //strength=Strength.getGrade(strengthNum);
         System.out.println(strengthNum+"/10");
-        strength=Strength.getGrade(strengthNum);
+        strength=Grade.getGrade(strengthNum);
         System.out.println(strength);
         System.out.println(" ");
         }//close for
     }//close main
 }
+/**
+*edited after to get strengthNum from SuperStrengthChecker
+*/
