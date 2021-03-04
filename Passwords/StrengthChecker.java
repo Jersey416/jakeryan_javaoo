@@ -59,6 +59,12 @@ public class StrengthChecker {
             return strengthNum;
     }//close getStrengthNum
     /**
+    *completed req 2: detect characters by type
+    *completed req 3: detect amount of each type
+    *completed req 4: calculate strength
+    *additionally checked length & upper/lower letters
+    */
+    /**
      * I know that I could have used an array and a loop to make this process
      * simpler but I do not have the skills to do so yet.
      * @param strengthNum
