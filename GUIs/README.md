@@ -1,4 +1,4 @@
-This is cod for a knock-off of Call of Duty's create-a-class screen.
+This is code for a knock-off of Call of Duty's create-a-class screen.
 Though still in its early stages, it uses Swing (and somw awt) components,
 objects extended from swing objects, along with implementations of ActionListener and MouseListener.
 
